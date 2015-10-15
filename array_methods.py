@@ -17,3 +17,11 @@ def two_sum(arr):
                 result.append([i,j])
 
     return result
+
+def my_transpose(grid):
+    result = [[]] * len(grid);
+    for i in range(len(grid)):
+        row = grid[i]
+        for j in range(len(row)):
+            result[j].append(grid[i][j])
+    return result
