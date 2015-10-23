@@ -1,4 +1,4 @@
-#!/usr/bin/env python
+#!/Users/jonelofson/Desktop/python_practice/django/ENV/bin/python
 import os
 import sys
 
